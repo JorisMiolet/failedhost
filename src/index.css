@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+}
+body{
+    background-color: #0C0B54;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 8rem;
+    font-weight: 800;
+}
+h2{
+    font-size: 6rem;
+    font-weight: 700;
+}
